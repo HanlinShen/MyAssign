@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E804806D243D9FA100EC342A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E804806C243D9FA100EC342A /* AppDelegate.swift */; };
+		E804806F243D9FA100EC342A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E804806E243D9FA100EC342A /* SceneDelegate.swift */; };
+		E8048071243D9FA100EC342A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8048070243D9FA100EC342A /* ViewController.swift */; };
+		E8048074243D9FA100EC342A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8048072243D9FA100EC342A /* Main.storyboard */; };
+		E8048076243D9FA200EC342A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8048075243D9FA200EC342A /* Assets.xcassets */; };
+		E8048079243D9FA200EC342A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8048077243D9FA200EC342A /* LaunchScreen.storyboard */; };
+		E8048084243D9FA200EC342A /* HanlinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8048083243D9FA200EC342A /* HanlinTests.swift */; };
+		E804808F243D9FA200EC342A /* HanlinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E804808E243D9FA200EC342A /* HanlinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8048080243D9FA200EC342A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8048061243D9FA100EC342A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8048068243D9FA100EC342A;
+			remoteInfo = Hanlin;
+		};
+		E804808B243D9FA200EC342A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8048061243D9FA100EC342A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8048068243D9FA100EC342A;
+			remoteInfo = Hanlin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8048069243D9FA100EC342A /* Hanlin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hanlin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E804806C243D9FA100EC342A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E804806E243D9FA100EC342A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E8048070243D9FA100EC342A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8048073243D9FA100EC342A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8048075243D9FA200EC342A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8048078243D9FA200EC342A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E804807A243D9FA200EC342A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E804807F243D9FA200EC342A /* HanlinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanlinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8048083243D9FA200EC342A /* HanlinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanlinTests.swift; sourceTree = "<group>"; };
+		E8048085243D9FA200EC342A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E804808A243D9FA200EC342A /* HanlinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanlinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E804808E243D9FA200EC342A /* HanlinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanlinUITests.swift; sourceTree = "<group>"; };
+		E8048090243D9FA200EC342A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8048066243D9FA100EC342A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E804807C243D9FA200EC342A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8048087243D9FA200EC342A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8048060243D9FA100EC342A = {
+			isa = PBXGroup;
+			children = (
+				E804806B243D9FA100EC342A /* Hanlin */,
+				E8048082243D9FA200EC342A /* HanlinTests */,
+				E804808D243D9FA200EC342A /* HanlinUITests */,
+				E804806A243D9FA100EC342A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E804806A243D9FA100EC342A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8048069243D9FA100EC342A /* Hanlin.app */,
+				E804807F243D9FA200EC342A /* HanlinTests.xctest */,
+				E804808A243D9FA200EC342A /* HanlinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E804806B243D9FA100EC342A /* Hanlin */ = {
+			isa = PBXGroup;
+			children = (
+				E804806C243D9FA100EC342A /* AppDelegate.swift */,
+				E804806E243D9FA100EC342A /* SceneDelegate.swift */,
+				E8048070243D9FA100EC342A /* ViewController.swift */,
+				E8048072243D9FA100EC342A /* Main.storyboard */,
+				E8048075243D9FA200EC342A /* Assets.xcassets */,
+				E8048077243D9FA200EC342A /* LaunchScreen.storyboard */,
+				E804807A243D9FA200EC342A /* Info.plist */,
+			);
+			path = Hanlin;
+			sourceTree = "<group>";
+		};
+		E8048082243D9FA200EC342A /* HanlinTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8048083243D9FA200EC342A /* HanlinTests.swift */,
+				E8048085243D9FA200EC342A /* Info.plist */,
+			);
+			path = HanlinTests;
+			sourceTree = "<group>";
+		};
+		E804808D243D9FA200EC342A /* HanlinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E804808E243D9FA200EC342A /* HanlinUITests.swift */,
+				E8048090243D9FA200EC342A /* Info.plist */,
+			);
+			path = HanlinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8048068243D9FA100EC342A /* Hanlin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8048093243D9FA200EC342A /* Build configuration list for PBXNativeTarget "Hanlin" */;
+			buildPhases = (
+				E8048065243D9FA100EC342A /* Sources */,
+				E8048066243D9FA100EC342A /* Frameworks */,
+				E8048067243D9FA100EC342A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hanlin;
+			productName = Hanlin;
+			productReference = E8048069243D9FA100EC342A /* Hanlin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E804807E243D9FA200EC342A /* HanlinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8048096243D9FA200EC342A /* Build configuration list for PBXNativeTarget "HanlinTests" */;
+			buildPhases = (
+				E804807B243D9FA200EC342A /* Sources */,
+				E804807C243D9FA200EC342A /* Frameworks */,
+				E804807D243D9FA200EC342A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8048081243D9FA200EC342A /* PBXTargetDependency */,
+			);
+			name = HanlinTests;
+			productName = HanlinTests;
+			productReference = E804807F243D9FA200EC342A /* HanlinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8048089243D9FA200EC342A /* HanlinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8048099243D9FA200EC342A /* Build configuration list for PBXNativeTarget "HanlinUITests" */;
+			buildPhases = (
+				E8048086243D9FA200EC342A /* Sources */,
+				E8048087243D9FA200EC342A /* Frameworks */,
+				E8048088243D9FA200EC342A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E804808C243D9FA200EC342A /* PBXTargetDependency */,
+			);
+			name = HanlinUITests;
+			productName = HanlinUITests;
+			productReference = E804808A243D9FA200EC342A /* HanlinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8048061243D9FA100EC342A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Hanlin Shen";
+				TargetAttributes = {
+					E8048068243D9FA100EC342A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E804807E243D9FA200EC342A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E8048068243D9FA100EC342A;
+					};
+					E8048089243D9FA200EC342A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E8048068243D9FA100EC342A;
+					};
+				};
+			};
+			buildConfigurationList = E8048064243D9FA100EC342A /* Build configuration list for PBXProject "Hanlin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8048060243D9FA100EC342A;
+			productRefGroup = E804806A243D9FA100EC342A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8048068243D9FA100EC342A /* Hanlin */,
+				E804807E243D9FA200EC342A /* HanlinTests */,
+				E8048089243D9FA200EC342A /* HanlinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8048067243D9FA100EC342A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8048079243D9FA200EC342A /* LaunchScreen.storyboard in Resources */,
+				E8048076243D9FA200EC342A /* Assets.xcassets in Resources */,
+				E8048074243D9FA100EC342A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E804807D243D9FA200EC342A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8048088243D9FA200EC342A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8048065243D9FA100EC342A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8048071243D9FA100EC342A /* ViewController.swift in Sources */,
+				E804806D243D9FA100EC342A /* AppDelegate.swift in Sources */,
+				E804806F243D9FA100EC342A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E804807B243D9FA200EC342A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8048084243D9FA200EC342A /* HanlinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8048086243D9FA200EC342A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E804808F243D9FA200EC342A /* HanlinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8048081243D9FA200EC342A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8048068243D9FA100EC342A /* Hanlin */;
+			targetProxy = E8048080243D9FA200EC342A /* PBXContainerItemProxy */;
+		};
+		E804808C243D9FA200EC342A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8048068243D9FA100EC342A /* Hanlin */;
+			targetProxy = E804808B243D9FA200EC342A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8048072243D9FA100EC342A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8048073243D9FA100EC342A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8048077243D9FA200EC342A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8048078243D9FA200EC342A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8048091243D9FA200EC342A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8048092243D9FA200EC342A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8048094243D9FA200EC342A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hanlin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hanlin.Hanlin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8048095243D9FA200EC342A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hanlin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hanlin.Hanlin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8048097243D9FA200EC342A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HanlinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hanlin.HanlinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanlin.app/Hanlin";
+			};
+			name = Debug;
+		};
+		E8048098243D9FA200EC342A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HanlinTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hanlin.HanlinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanlin.app/Hanlin";
+			};
+			name = Release;
+		};
+		E804809A243D9FA200EC342A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HanlinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hanlin.HanlinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hanlin;
+			};
+			name = Debug;
+		};
+		E804809B243D9FA200EC342A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HanlinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hanlin.HanlinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hanlin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8048064243D9FA100EC342A /* Build configuration list for PBXProject "Hanlin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8048091243D9FA200EC342A /* Debug */,
+				E8048092243D9FA200EC342A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8048093243D9FA200EC342A /* Build configuration list for PBXNativeTarget "Hanlin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8048094243D9FA200EC342A /* Debug */,
+				E8048095243D9FA200EC342A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8048096243D9FA200EC342A /* Build configuration list for PBXNativeTarget "HanlinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8048097243D9FA200EC342A /* Debug */,
+				E8048098243D9FA200EC342A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8048099243D9FA200EC342A /* Build configuration list for PBXNativeTarget "HanlinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E804809A243D9FA200EC342A /* Debug */,
+				E804809B243D9FA200EC342A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8048061243D9FA100EC342A /* Project object */;
+}
